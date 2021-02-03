@@ -1,0 +1,7 @@
+.env.*.php
+.env.php
+composer.lock
+vendor
+/.idea
+/.settings
+.DS_Store
