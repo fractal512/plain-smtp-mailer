@@ -12,12 +12,12 @@ or add `fractal512/plain-smtp-mailer` to `require` section and set the `minimum-
 {
     "require": {
         "laravel/framework": "5.0.*",
-        "fractal512/plain-smtp-mailer": "~1.0"
+        "fractal512/plain-smtp-mailer": "^1.0"
     },
     "minimum-stability": "dev"
 }
 ```
-then update your packages with ```composer update``` or install with ```composer install```.
+then update your packages with `composer update` or install with `composer install`.
 
 ## Registration in Laravel
 No need in versions with auto discovery (Laravel 5.5+).
@@ -46,7 +46,7 @@ or run (Laravel 8+)
 ```shell script
 $ php artisan vendor:publish
 ```
-then enter the number of the `fractal512\plain-smtp-mailer` service provider.
+then enter the number of the `Fractal512\PlainSmtpMailer\PlainSmtpMailerServiceProvider` service provider.
 
 Options in config file refer to options for mail driver in the app `.env` file:
 ```text

@@ -3,23 +3,18 @@
 namespace Fractal512\PlainSmtpMailer;
 
 /**
- * Laravel 5 Stateless Captcha Package
+ * Plain SMTP Mailer for Laravel 5+
  *
  * @copyright Copyright (c) 2021 Fractal512
  * @version 1.x
  * @author fractal512
  * @contact fractal512.web.dev@gmail.com
- * @web https://github.com/fractal512/captcha
- * @date 2021-01-26
+ * @web https://github.com/fractal512/plain-smtp-mailer
+ * @date 2021-02-03
  * @license http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
-use Exception;
-use Illuminate\Contracts\Config\Repository;
-use Illuminate\Support\Str;
-use Illuminate\Support\HtmlString;
 use Swift_Mime_HeaderSet;
-use Swift_Mime_SimpleHeaderSet;
 
 /**
  * Class PlainSmtpMailer

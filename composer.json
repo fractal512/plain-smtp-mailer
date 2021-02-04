@@ -1,7 +1,7 @@
 {
 	"name": "fractal512/plain-smtp-mailer",
 	"type": "package",
-	"description": "Laravel 5+ plain smtp mailer package.",
+	"description": "Laravel 5+ plain SMTP mailer package.",
 	"keywords": ["laravel5 mailer", "SMTP", "Mail"],
 	"homepage": "https://github.com/fractal512/plain-smtp-mailer",
 	"license": "MIT",
